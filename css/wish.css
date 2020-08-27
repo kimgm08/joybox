@@ -1,0 +1,46 @@
+section{
+    margin:0 auto;
+    width:1200px;
+    height:876px;
+    position:relative;
+}
+#wish_bg{
+    width:1100px;
+    height:674px;
+    position:absolute;
+    box-sizing:border-box;
+    background:#fff;
+    border-top:1px solid #aed044;
+    border-bottom:1px solid #aed044;
+    left:50px;
+    top:100px;
+}
+.wish_wr{
+    width:1100px;
+    height:674px;
+    position:absolute;
+    left:50px;
+    top:100px;
+}
+.wish_wr h1{
+    font-size:36px;
+    margin:25px 0 25px 25px;
+}
+#wish{
+    text-align:center;
+    margin-top:227px;
+}
+#wish li p{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+#shopping{
+    width:300px;
+    height:60px;
+    font-size:24px;
+    font-weight:bold;
+    color:#fff;
+    background:#aed044;
+    border:none;
+}

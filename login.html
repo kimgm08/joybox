@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>조이박스 홈페이지</title>
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="script/main.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700,900&display=swap" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/login.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="gnb_bg"></div>
+            <div class="wrapper_content">
+                <header>
+                    <div id="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div>
+                    <div id="search">
+                        <input type="search">
+                        <input type="submit" id="search_b" value="검색">
+                    </div>
+                    <ul class="login">
+                        <li><a href="login.html">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="wish.html">장바구니</a></li>
+                    </ul>
+                </header>
+                <nav id="gnb">
+                    <ul class="menu">
+                        <li><a href="#">게임</a>
+                            <ul class="lnb">
+                                    <li><a href="menu_1.html">보드게임</a></li>
+                                    <li><a href="menu_1.html">퍼즐게임</a></li>
+                                    <li><a href="menu_1.html">전자게임</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">인형</a>
+                            <ul class="lnb">
+                                <li><a href="#">동물 인형</a></li>
+                                <li><a href="#">캐릭터 인형</a></li>
+                                <li><a href="#">역할놀이 인형</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">스포츠</a>
+                            <ul class="lnb">
+                                <li><a href="#">구기종목</a></li>
+                                <li><a href="#">줄넘기</a></li>
+                                <li><a href="#">사격용품</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">피규어 / 프라모델</a>
+                            <ul class="lnb">
+                                <li><a href="#">건담 프라모델</a></li>
+                                <li><a href="#">자동차 프라모델</a></li>
+                                <li><a href="#">캐릭터 피규어</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">교육</a>
+                            <ul class="lnb">
+                                <li><a href="#">도서</a></li>
+                                <li><a href="#">자석교구</a></li>
+                                <li><a href="#">블록</a></li>
+                            </ul></li>
+                        <li><a href="#">로봇</a>
+                            <ul class="lnb">
+                                <li><a href="#">변신로봇</a></li>
+                                <li><a href="#">조종로봇</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <section>
+                    <div id="login_bg"></div>
+                    <div class="login_f">
+                        <h1 id="login_h1">로그인</h1>
+                        <ul id="input_log">
+                            <li><input type="text" id="ID" placeholder="아이디" required></li>
+                            <li><input type="password" id="pw" placeholder="비밀번호" required></li>
+                        </ul>
+                        <input type="submit" id="login_im" value="로그인">
+                        <label id="id_save"><input type="checkbox" id="save_cb" value="IdSave">아이디 저장</label>
+                        <ul id="account">
+                            <li><a href="#">아이디 / 비밀번호 찾기</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <footer>
+                    <ul id="number">
+                        <li>고객센터</li>
+                        <li>2222-8122</li>
+                        <li>상담시간 :: AM 10:00 - PM 06:00</li>
+                        <li>주말, 공휴일은 휴무입니다.</li>
+                    </ul>
+                    <ul id="address">
+                        <li>주소 :: 광주광역시 광산구 평행로 20 박스타워 3층</li>
+                        <li>이메일 :: joyboxmall@naver.com</li>
+                    </ul>
+                    <ul id="bank">
+                        <li>무통장 입금 안내</li>
+                        <li>국민은행 756892-03-231548</li>
+                        <li>예금주 :: 김도연</li>
+                    </ul>
+                    <ul id="company">
+                        <li><a href="#"><span>회사소개</span></a></li>
+                        <li><a href="#"><span>매장찾기</span></a></li>
+                        <li><a href="#"><span>고객센터</span></a></li>
+                        <li><a href="#"><span>개인정보처리방침</span></a></li>
+                        <li><a href="#"><span>이용약관</span></a></li>
+                        <li><a href="#"><span>이메일 무단수집 거부</span></a></li>
+                    </ul>
+                </footer>
+            </div><!--wrapper_content-->
+            <div id="footer_bg"></div>
+        </div>
+    </body>
+</html>
